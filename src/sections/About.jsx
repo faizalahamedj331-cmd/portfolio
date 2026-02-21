@@ -51,11 +51,11 @@ const About = () => {
                                 <h3 className="text-xl font-semibold text-white mb-4">Quick Stats</h3>
                                 <div className="grid grid-cols-2 gap-4">
                                     <div className="text-center p-4 bg-white/5 rounded-xl">
-                                        <span className="text-3xl font-bold text-blue-400">2+</span>
+                                        <span className="text-3xl font-bold text-blue-400">{'<1'}</span>
                                         <p className="text-gray-400 text-sm mt-1">Years Experience</p>
                                     </div>
                                     <div className="text-center p-4 bg-white/5 rounded-xl">
-                                        <span className="text-3xl font-bold text-purple-400">10+</span>
+                                        <span className="text-3xl font-bold text-purple-400">3</span>
                                         <p className="text-gray-400 text-sm mt-1">Projects Completed</p>
                                     </div>
                                     <div className="text-center p-4 bg-white/5 rounded-xl">
@@ -63,7 +63,7 @@ const About = () => {
                                         <p className="text-gray-400 text-sm mt-1">Technologies</p>
                                     </div>
                                     <div className="text-center p-4 bg-white/5 rounded-xl">
-                                        <span className="text-3xl font-bold text-yellow-400">2+</span>
+                                        <span className="text-3xl font-bold text-yellow-400">2</span>
                                         <p className="text-gray-400 text-sm mt-1">Certifications</p>
                                     </div>
                                 </div>
