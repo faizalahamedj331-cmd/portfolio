@@ -58,7 +58,7 @@ export const experience = [
         id: 1,
         title: "Python Full Stack Developer Intern",
         company: "Besant Technologies",
-        year: "2025",
+        year: "Less than 1 year",
         description: "Architected and deployed an Enterprise Academic Workflow System using Django and React, reducing administrative workload by 40%. Engineered robust RESTful APIs with optimized endpoints to handle high-concurrency data requests. Implemented secure JWT-based authentication and granular Role-Based Access Control (RBAC).",
     }
 ];
