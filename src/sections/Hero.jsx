@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { ArrowRight, Download } from "lucide-react";
 import { personalInfo } from "../data/content";
+import profilePhoto from "../images/linked in photo.jpeg";
 
 const Hero = () => {
     return (
@@ -15,6 +16,20 @@ const Hero = () => {
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.8 }}
                 >
+                    {/* Profile Photo */}
+                    <motion.div
+                        initial={{ opacity: 0, scale: 0.8 }}
+                        animate={{ opacity: 1, scale: 1 }}
+                        transition={{ delay: 0.2, duration: 0.8 }}
+                        className="mb-6"
+                    >
+                        <img
+                            src={profilePhoto}
+                            alt={personalInfo.name}
+                            className="w-40 h-40 mx-auto rounded-full object-cover border-4 border-blue-500/30 shadow-lg shadow-blue-500/20"
+                        />
+                    </motion.div>
+
                     <h2 className="text-blue-400 font-medium tracking-wide mb-4">Hello, I'm</h2>
                     <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
                         {personalInfo.name}
