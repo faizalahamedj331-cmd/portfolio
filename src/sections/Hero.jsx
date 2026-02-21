@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { ArrowRight, Download } from "lucide-react";
 import { personalInfo } from "../data/content";
-import profilePhoto from "../images/linked in photo.jpeg";
+import profilePhoto from "../images/normal photo.jpeg";
 
 const Hero = () => {
     return (
