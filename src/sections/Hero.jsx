@@ -55,7 +55,7 @@ const Hero = () => {
                         View Work <ArrowRight size={20} />
                     </a>
                     <a
-                        href="/resume.pdf"
+                        href="/faizal_resume.pdf"
                         className="px-8 py-3 rounded-full bg-white/10 hover:bg-white/20 text-white border border-white/10 font-medium flex items-center justify-center gap-2 transition-all backdrop-blur-sm"
                     >
                         Download Resume <Download size={20} />

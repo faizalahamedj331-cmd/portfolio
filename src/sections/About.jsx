@@ -71,7 +71,7 @@ const About = () => {
 
                             <div className="bg-white/5 backdrop-blur-md p-6 rounded-2xl border border-white/10">
                                 <h3 className="text-xl font-semibold text-white mb-4">Connect With Me</h3>
-                                <div className="flex gap-4">
+                                <div className="flex gap-4 mb-4">
                                     <a
                                         href={personalInfo.linkedin}
                                         target="_blank"
@@ -90,6 +90,24 @@ const About = () => {
                                         <Github size={20} />
                                         GitHub
                                     </a>
+                                </div>
+                                <div className="flex justify-center gap-6">
+                                    <div className="text-center">
+                                        <p className="text-gray-400 text-sm mb-2">LinkedIn</p>
+                                        <img 
+                                            src="/linkedin-qr.jpeg" 
+                                            alt="LinkedIn QR Code" 
+                                            className="w-24 h-24 mx-auto rounded-lg border border-white/10"
+                                        />
+                                    </div>
+                                    <div className="text-center">
+                                        <p className="text-gray-400 text-sm mb-2">GitHub</p>
+                                        <img 
+                                            src="/github-qr.jpeg" 
+                                            alt="GitHub QR Code" 
+                                            className="w-24 h-24 mx-auto rounded-lg border border-white/10"
+                                        />
+                                    </div>
                                 </div>
                             </div>
                         </div>
