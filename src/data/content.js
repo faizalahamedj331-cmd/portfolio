@@ -89,7 +89,7 @@ export const projects = [
             "Lazy loading & state management for performance",
             "Comprehensive inventory tracking system",
         ],
-        github: "https://github.com/faizalahamedj331-cmd/smart-cater",
+        github: "https://github.com/faizalahamedj331-cmd/smartcater",
         live: "#",
     },
     {
