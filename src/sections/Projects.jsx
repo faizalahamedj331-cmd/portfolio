@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { projects } from "../data/content";
 import SectionWrapper from "../components/SectionWrapper";
-import { Github } from "lucide-react";
+import { Github, ExternalLink } from "lucide-react";
 
 const Projects = () => {
     return (
@@ -29,17 +29,30 @@ const Projects = () => {
                                     </h3>
                                     <p className="text-gray-400 text-sm">{project.description}</p>
                                 </div>
-                                {project.github && (
-                                    <a
-                                        href={project.github}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="text-gray-400 hover:text-white transition-colors p-2 hover:bg-white/10 rounded-full"
-                                        title="View on GitHub"
-                                    >
-                                        <Github size={20} />
-                                    </a>
-                                )}
+                                <div className="flex gap-2">
+                                    {project.github && (
+                                        <a
+                                            href={project.github}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="text-gray-400 hover:text-white transition-colors p-2 hover:bg-white/10 rounded-full"
+                                            title="View on GitHub"
+                                        >
+                                            <Github size={20} />
+                                        </a>
+                                    )}
+                                    {project.id === 3 && project.live && (
+                                        <a
+                                            href={project.live}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="text-blue-400 hover:text-white transition-colors p-2 hover:bg-white/10 rounded-full"
+                                            title="Live Demo"
+                                        >
+                                            <ExternalLink size={20} />
+                                        </a>
+                                    )}
+                                </div>
                             </div>
 
                             <div className="space-y-4 mb-6">

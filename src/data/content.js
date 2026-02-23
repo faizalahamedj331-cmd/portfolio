@@ -91,6 +91,19 @@ export const projects = [
         ],
         github: "https://github.com/faizalahamedj331-cmd/smartcater",
         live: "#",
+    },
+    {
+        id: 3,
+        title: "FlowForge – Interactive Workflow Automation Simulator",
+        stack: ["HTML", "CSS", "JavaScript", "ReactJS", "Tailwind CSS", "Framer Motion", "Chart.js"],
+        description: "A professional frontend SaaS application to visually simulate real-world workflow automation processes using ReactJS.",
+        features: [
+            "Developed a professional frontend SaaS application to visually simulate real-world workflow automation processes using ReactJS",
+            "Implemented dynamic step-based workflow engine with automated state transitions, real-time activity logging, and simulation controls",
+            "Designed custom workflow builder with local storage persistence and interactive pipeline visualization",
+        ],
+        github: "https://github.com/faizalahamedj331-cmd/flowforge",
+        live: "https://flowforg.netlify.app",
     }
 ];
 
