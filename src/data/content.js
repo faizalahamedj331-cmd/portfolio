@@ -91,20 +91,6 @@ export const projects = [
         ],
         github: "https://github.com/faizalahamedj331-cmd/smartcater",
         live: "#",
-    },
-    {
-        id: 3,
-        title: "Real-Time Chat Application",
-        stack: ["Django Channels", "React", "WebSocket", "Redis"],
-        description: "Full-stack real-time messaging application with chat rooms and online status tracking.",
-        features: [
-            "Real-time messaging using WebSockets",
-            "Chat rooms and private messaging",
-            "Online/offline status indicators",
-            "Message persistence with MySQL",
-        ],
-        github: "https://github.com/faizalahamedj331-cmd/chat-app",
-        live: "#",
     }
 ];
 
